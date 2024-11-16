@@ -1,6 +1,8 @@
 # timeshift-config-arch
 My Archlinux timeshift setup (Because snapper gives me headaches)
 
+This will create snapshots before installing/upgrading packages, as well as enabling the timers for the scheduled snapshots, i recommend using btrfs with this config since non-btrfs snapshots are very heavy.
+
 ## Install timeshift and utilities from the AUR
 
 ```shell
