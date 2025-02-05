@@ -33,7 +33,7 @@ deleteSnapshots=true
 # maxSnapshots defines how much old snapshots script should left.
 # Only positive whole numbers can be used.
 # Default value is 3.
-maxSnapshots=30
+maxSnapshots=10
 
 # updateGrub defines if grub entries should be auto-generated.
 # If grub-btrfs package is not installed grub won't be generated.
